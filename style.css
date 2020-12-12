@@ -7,6 +7,13 @@ justify-content: space-between;
 margin-top: 50px;
 
 }
+
+
+
+
+
+
+
 .logo_text{
     font-family: 'Roboto', sans-serif;
     padding-left: 50px;
@@ -18,4 +25,43 @@ margin-top: 50px;
 .img_logo{
     margin-right: 50px;
     border-radius: 100px;
+}
+.discription{
+    margin-top: 100px  ;
+    margin-left: 110px;
+}
+.discription_text{
+    
+}
+.discription_img{
+   display: flex;
+   justify-content: space-between;
+
+}
+.support{
+
+}
+.text_support{
+    width: 900px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.text_support:hover{
+    color: #7F42A9;
+    transition: 0.5s;
+    cursor: grab;
+}
+.psiphon{
+    margin-top: 100px;
+    margin-right: 110px;
+    font-family: 'Roboto Slab', serif;
+}
+.psiphon_img{
+    float: right;
+    
+}
+.text_psiphon{
+    width: 700px;
+    margin-left:450px;
+    margin-top: 150px;
 }
