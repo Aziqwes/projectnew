@@ -1,0 +1,21 @@
+body{
+background-color: #DBE8F3;
+}
+.logo{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+
+}
+.logo_text{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+}
+.logo_text span{
+    color: blue;
+    margin: 25px;
+}
+.img_logo{
+    margin-right: 50px;
+    border-radius: 100px;
+}
