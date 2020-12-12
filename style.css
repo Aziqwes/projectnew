@@ -10,10 +10,6 @@ margin-top: 50px;
 
 
 
-
-
-
-
 .logo_text{
     font-family: 'Roboto', sans-serif;
     padding-left: 50px;
@@ -47,7 +43,7 @@ margin-top: 50px;
     
 }
 .text_support:hover{
-    color: #7F42A9;
+    
     transition: 0.5s;
     cursor: grab;
 }
@@ -64,4 +60,53 @@ margin-top: 50px;
     width: 700px;
     margin-left:450px;
     margin-top: 150px;
+}
+.text_psiphon:hover{
+    transition: 0.5s;
+    cursor: grab;
+}
+.ssr{
+    margin-top: 100px;
+    margin-right: 110px;
+    font-family: 'Roboto Slab', serif;
+}
+.ssr_img{
+   
+   
+   float: right ;
+}
+.ssr_text{
+   width: 700px;
+    margin-left: 450px;
+    margin-top: 150px; 
+}
+.v2rayng{
+    margin-top: 100px;
+    margin-right: 110px;
+    font-family: 'Roboto Slab', serif;
+}
+.v2rayng_img{
+   
+    float: right ;
+}
+.v2rayng_text{
+    width: 700px;
+    margin-left: 450px;
+    margin-top:150px; 
+}
+.contact{
+display: flex;
+justify-content: center;
+    margin-top: 150px;
+}
+.contact_text{
+
+}
+.contact_img{
+    margin-top: 50px;
+   
+}
+.contact_logo{
+    border-radius: 150px;
+    margin-left: 50px;
 }
