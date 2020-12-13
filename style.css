@@ -31,12 +31,17 @@ margin-right: 50px;
     color: black;
     font-family: 'Roboto', sans-serif;
 }
+.nav_li:hover{
+list-style: disc;
+color: crimson;
+}
 .nav_link{
     text-decoration: none;
 }
 .img_llogo{
     margin-right: 50px;
     border-radius: 100px;
+    
 }
 .logo_img{
     display: flex;
@@ -215,13 +220,15 @@ margin-top: 100px;
 }
 #price_buy_id:hover{
     background-color: #00B87F ;
+    border-radius: 50px;
     transition: 0.7s;
 }
-#pricebuy_id:hover{
-    border: solid black ;
-    transition: 0.2s;
-   
+.price_buy:hover{
+    border: solid;
+    box-shadow: 10px 10px 10px;
+    transition: 1s;
 }
+
 .treeteam{
 display: flex;
 justify-content: center;
@@ -230,3 +237,74 @@ margin-top: 80px;
 .treeteam_text{
 
 }
+.treetime{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.treetime_text1{
+    width: 150px;
+    background-color: #C43A25;
+    border-radius: 50px;
+    height: 35px;
+    display: flex;
+   align-items: center;
+}
+.treetime_link1{
+    text-decoration: none;
+    color: #DBE8F3;
+
+}
+.treetime_text1:hover{
+background-color: #D02A44;
+transition: 1s;
+}
+.treetime_link1:hover{
+    color: #DBE8F3;
+    transition: 1s;
+}
+.treetime_link2{
+    text-decoration: none;
+    color: #DBE8F3;
+}
+.treetime_text2{
+    width: 150px;
+    background-color: #BF197D ;
+    border-radius: 50px;
+    height: 35px;
+    display: flex;
+   align-items: center;
+}
+.treetime_text2:hover{
+    background-color: #4E8DF4;
+    transition: 1s;
+    }
+    .treetime_link3{
+        text-decoration: none;
+        color: #DBE8F3;
+    }
+    .treetime_text3{
+        width: 150px;
+        background-color: #F0680C;
+        border-radius: 50px;
+        height: 35px;
+        display: flex;
+       align-items: center;
+    }
+    .treetime_text3:hover{
+        background-color:#9C44A9;
+        transition: 1s;
+        }
+        #tretime_link_id{
+            margin-left: 40px;
+        }
+        .footer{
+            background-color: #2196F3;
+            color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+        border-radius: 50px ;
+        }
+        #contacts{
+            transition: 1s  ;
+        }

@@ -19,6 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="script.js"></script>
 
 </head>
 <body>
@@ -32,13 +33,19 @@
                 <a class="nav_link" href="#"><li class="nav_li">Главная</li></a>
             </ul>
             <ul class="nav_ul" >
-                <a class="nav_link" href="#"><li class="nav_li">Сервера</li></a>
+                <a class="nav_link" href="#servers"><li class="nav_li">Сервера</li></a>
             </ul>
             <ul class="nav_ul" >
-                <a class="nav_link" href="#"><li class="nav_li">Контакты</li></a>
+                <a class="nav_link" href="#contacts"><li class="nav_li">Контакты</li></a>
             </ul>
             <ul class="nav_ul" >
-                <a class="nav_link" href="#"><li class="nav_li">Цены</li></a>
+                <a class="nav_link" href="#how_pay"><li class="nav_li">Способы оплаты</li></a>
+            </ul>
+            <ul class="nav_ul" >
+                <a class="nav_link" href="#price"><li class="nav_li">Цены</li></a>
+            </ul>
+            <ul class="nav_ul" >
+                <a class="nav_link" href="#treeteam"><li class="nav_li">Пробный период</li></a>
             </ul>
         </div>   
     </div>
@@ -53,7 +60,7 @@
        <h2 class="text_support" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dolores? Dolorum asperiores dicta, dignissimos distinctio perspiciatis incidunt sequi. Minima voluptas aliquam similique a qui ad commodi incidunt labore, perspiciatis aperiam omnis officiis fugiat nemo dolores dicta facere deleniti quaerat quos tempora voluptatum magnam numquam. Ad mollitia culpa quasi voluptatem maxime.</h2>  
     </div>
 <div class="servers">
-    <h1 class="servers_text"  >Сервера</h1>
+    <h1 class="servers_text" id="servers" >Сервера</h1>
 </div>
     <div class="psiphon">
         <img class="psiphon_img" src="pictures/Psiphon.png" alt="-" height="250px" align="right" >
@@ -69,7 +76,7 @@
 
    </div>
    <div class="contact">
-       <h1 class="contact_text" >Контакы</h1>
+       <h1 class="contact_text" id="contacts" >Контакы</h1>
        
    </div>
    <div class="contact_img">
@@ -78,7 +85,7 @@
     <a class="contact_link" href="https://t.me/Multy_PlayBoy"><img  class="contact_logo" src="pictures/logoplayboy.jpg" alt="-" height="250px" ></a>
 </div>
 <div class="how_buy">
-    <h1 class="how_transfer" >Способы оплаты</h1>
+    <h1 class="how_transfer" id="how_pay" >Способы оплаты</h1>
 </div>
 <div class="howbuy_img">
     <img  class="how_transfer_img" src="pictures/qiwi.png" alt="-" height="200px" align="bottom" >
@@ -91,7 +98,7 @@
     <h2 class="how_buy_discription_text">На наши номера в Туркменистане</h2>
 </div>
 <div class="price">
-    <h1 class="price_text">Цены</h1>
+    <h1 class="price_text" id="price" >Цены</h1>
 </div>
 <div class="price_buy">
     <div  id="pricebuy_id" class="price_buy_div">Название vpn сервиса </div>
@@ -112,7 +119,17 @@
     <div id="price_buy_id" class="price_buy_div">30 манат</div>
 </div>
 <div class="treeteam">
-    <h1 class="treeteam_text">Пробный период</h1>
+    <h1 class="treeteam_text" id="treeteam" >Пробный период</h1>
 </div>
+<div class="treetime">
+    <a id="tretime_link_id" class="treetime_link1" href="#" onclick="psiphontest()" ><ul class="treetime_text1" >Получить Psiphon</ul></a>
+    <a id="tretime_link_id" class="treetime_link2" href="#" onclick="ssrtest()" ><ul class="treetime_text2" >Получить SSR</ul></a>
+    <a id="tretime_link_id" class="treetime_link3" href="#" onclick="ss()" ><ul class="treetime_text3" >Получить SS</ul></a>
+</div>
+<footer class="footer">
+    <h3>© 2020 - 2020.  Moonkey LLC</h3>
+</footer>
+
+
 </body>
 </html>
