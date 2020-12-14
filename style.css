@@ -58,7 +58,12 @@ color: crimson;
 .discription_img{
    display: flex;
    justify-content: space-between;
+   
 
+}
+.discription_img._active{
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 .support{
 
@@ -66,7 +71,14 @@ color: crimson;
 .text_support{
     width: 900px;
     font-family: 'Roboto Slab', serif;
+    transform: translate(0px,120%);
+   opacity: 0;
+   transition: 0.8s;
     
+}
+.text_support._active{
+    transform: translate(0px,0px);
+    opacity: 1; 
 }
 .text_support:hover{
     
